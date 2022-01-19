@@ -1,0 +1,971 @@
+2022-01-18 11:00:17,294 Validating environment variables.
+2022-01-18 11:00:17,294 Success, validated environment variables.
+2022-01-18 11:00:17,294 Initializing account sequence.
+2022-01-18 11:00:17,316 Success, account sequence initialized.
+2022-01-18 11:00:17,316 Initializing 'None' merchant.
+2022-01-18 11:00:17,340 Success, 'None' merchant inserted.
+2022-01-18 11:00:17,351 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:00:17,787 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 201 None
+2022-01-18 11:00:17,793 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:18,112 http://172.27.80.84:8071 "POST /login HTTP/1.1" 200 0
+2022-01-18 11:00:51,564 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:00:51,566 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:00:51,567 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:00:51,567 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:00:51,568 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:00:51,568 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:00:51,569 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:00:51,569 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:00:51,570 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:00:51,571 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:00:51,571 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:00:51,573 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:00:51,573 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:00:51,573 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:00:51,574 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:00:51,574 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:00:51,575 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:00:51,576 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:00:51,576 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:00:51,576 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:00:51,577 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:00:51,577 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:00:51,578 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:00:51,579 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:00:51,579 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:00:51,580 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:00:51,580 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:00:51,581 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:00:51,582 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:00:51,582 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:00:51,582 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:00:51,584 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:00:51,585 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:00:51,586 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:00:51,586 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:00:51,587 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:00:51,587 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:00:51,588 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:00:51,589 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:00:51,589 Preparing to insert 30 applicants...
+2022-01-18 11:00:51,592 Adding applicant {"firstName": "Ebony", "lastName": "Hopkins", "dateOfBirth": "1979-04-05", "gender": "MALE", "email": "scottlowery@gmail.com", "phone": "356-604-2985", "socialSecurity": "040-25-4786", "driversLicense": "MI8065795420", "income": 80395175, "address": "59428 Tiffany Curve", "city": "Port Stephenfurt", "state": "NY", "zipcode": "28099", "mailingAddress": "72407 George Track", "mailingCity": "West Mikaylachester", "mailingState": "WI", "mailingZipcode": "24518"}
+2022-01-18 11:00:51,594 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:51,887 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:51,890 Success, added applicant
+2022-01-18 11:00:51,892 Adding applicant {"firstName": "Shannon", "lastName": "Douglas", "dateOfBirth": "1979-03-11", "gender": "MALE", "email": "matthewprice@hotmail.com", "phone": "983-388-2531", "socialSecurity": "792-62-4253", "driversLicense": "MO0420586072", "income": 79676037, "address": "288 Fuller Mission", "city": "Blaketown", "state": "KS", "zipcode": "09465", "mailingAddress": "1024 Leslie Squares Apt. 476", "mailingCity": "Mindyton", "mailingState": "IA", "mailingZipcode": "18934"}
+2022-01-18 11:00:51,893 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:51,941 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:51,942 Success, added applicant
+2022-01-18 11:00:51,943 Adding applicant {"firstName": "Melinda", "lastName": "Haynes", "dateOfBirth": "1972-10-23", "gender": "MALE", "email": "landryjose@hotmail.com", "phone": "789-134-0048", "socialSecurity": "122-60-8163", "driversLicense": "NM4198788354", "income": 80045760, "address": "4035 Thomas Pines", "city": "North Antonio", "state": "NV", "zipcode": "49207", "mailingAddress": "1789 House Spur Apt. 842", "mailingCity": "Lewiston", "mailingState": "OR", "mailingZipcode": "72538"}
+2022-01-18 11:00:51,945 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:51,988 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:51,989 Success, added applicant
+2022-01-18 11:00:51,990 Adding applicant {"firstName": "Stacy", "lastName": "Wise", "dateOfBirth": "1993-04-16", "gender": "OTHER", "email": "kturner@yahoo.com", "phone": "093-852-9697", "socialSecurity": "831-77-6694", "driversLicense": "VA7258224563", "income": 30635634, "address": "508 George Dam Suite 218", "city": "Lake Jose", "state": "NE", "zipcode": "89995", "mailingAddress": "0633 Laura Canyon", "mailingCity": "West Stacy", "mailingState": "NY", "mailingZipcode": "17272"}
+2022-01-18 11:00:51,991 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,037 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,039 Success, added applicant
+2022-01-18 11:00:52,040 Adding applicant {"firstName": "Mary", "lastName": "Daniels", "dateOfBirth": "1984-02-09", "gender": "UNSPECIFIED", "email": "wilsonmichael@armstrong.com", "phone": "097-405-6666", "socialSecurity": "426-43-3106", "driversLicense": "SC2454083083", "income": 49045037, "address": "8725 Burgess Drives Suite 957", "city": "Meganside", "state": "AK", "zipcode": "11379", "mailingAddress": "446 Johnson Station Apt. 627", "mailingCity": "Leeport", "mailingState": "HI", "mailingZipcode": "56587"}
+2022-01-18 11:00:52,041 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,085 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,086 Success, added applicant
+2022-01-18 11:00:52,088 Adding applicant {"firstName": "Ricky", "lastName": "Fuller", "dateOfBirth": "2009-04-16", "gender": "MALE", "email": "robertglover@gmail.com", "phone": "460-692-6356", "socialSecurity": "369-58-9546", "driversLicense": "TX8874958167", "income": 32432516, "address": "706 Linda Drive Apt. 032", "city": "East Christopher", "state": "CT", "zipcode": "71077", "mailingAddress": "0964 Rodriguez Union", "mailingCity": "Maymouth", "mailingState": "OK", "mailingZipcode": "21048"}
+2022-01-18 11:00:52,089 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,107 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,108 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,109 ["Age must be at least 18."]
+2022-01-18 11:00:52,109 Adding applicant {"firstName": "Lauren", "lastName": "Meyer", "dateOfBirth": "2019-09-28", "gender": "MALE", "email": "patricia12@hotmail.com", "phone": "648-667-6842", "socialSecurity": "543-06-3762", "driversLicense": "NY4644187606", "income": 4860988, "address": "142 Ashley Radial Suite 290", "city": "Nguyenshire", "state": "ND", "zipcode": "67346", "mailingAddress": "30702 Joshua Oval Apt. 006", "mailingCity": "Williamview", "mailingState": "ND", "mailingZipcode": "98064"}
+2022-01-18 11:00:52,111 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,118 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,119 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,120 ["Age must be at least 18."]
+2022-01-18 11:00:52,121 Adding applicant {"firstName": "Gerald", "lastName": "Yoder", "dateOfBirth": "2017-05-04", "gender": "UNSPECIFIED", "email": "nramos@moore.biz", "phone": "599-671-4708", "socialSecurity": "972-27-2908", "driversLicense": "TN7629788619", "income": 16035214, "address": "927 Mccarthy Station Suite 551", "city": "South Zacharyhaven", "state": "ID", "zipcode": "35120", "mailingAddress": "06204 Bryan Shoals", "mailingCity": "Grayborough", "mailingState": "ND", "mailingZipcode": "14896"}
+2022-01-18 11:00:52,122 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,130 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,131 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,131 ["Age must be at least 18."]
+2022-01-18 11:00:52,132 Adding applicant {"firstName": "Catherine", "lastName": "Garza", "dateOfBirth": "1971-12-18", "gender": "FEMALE", "email": "ryanchurch@adkins-farley.com", "phone": "644-578-4653", "socialSecurity": "814-56-2701", "driversLicense": "AR1224090454", "income": 50520629, "address": "09180 Craig Camp", "city": "Marshallburgh", "state": "MT", "zipcode": "56234", "mailingAddress": "3472 Tran Route", "mailingCity": "Rachelberg", "mailingState": "KY", "mailingZipcode": "93101"}
+2022-01-18 11:00:52,133 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,177 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,178 Success, added applicant
+2022-01-18 11:00:52,179 Adding applicant {"firstName": "Natasha", "lastName": "Jones", "dateOfBirth": "2018-10-05", "gender": "MALE", "email": "wwilliams@elliott-horne.com", "phone": "164-122-5955", "socialSecurity": "960-78-9201", "driversLicense": "HI8099576640", "income": 32596038, "address": "78537 Penny Locks", "city": "Thomaston", "state": "OR", "zipcode": "88171", "mailingAddress": "72626 Deanna Run", "mailingCity": "Port Melaniebury", "mailingState": "MO", "mailingZipcode": "17666"}
+2022-01-18 11:00:52,180 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,187 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,188 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,189 ["Age must be at least 18."]
+2022-01-18 11:00:52,190 Adding applicant {"firstName": "Melissa", "lastName": "Whitney", "dateOfBirth": "2005-01-18", "gender": "OTHER", "email": "adam31@beard-greer.com", "phone": "192-981-5983", "socialSecurity": "145-55-1753", "driversLicense": "HI9880288190", "income": 54314817, "address": "2295 Randy Cliff", "city": "East Christina", "state": "MI", "zipcode": "94594", "mailingAddress": "47198 Avila Turnpike", "mailingCity": "South Lindaburgh", "mailingState": "ND", "mailingZipcode": "86612"}
+2022-01-18 11:00:52,191 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,197 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,198 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,198 ["Age must be at least 18."]
+2022-01-18 11:00:52,199 Adding applicant {"firstName": "Dennis", "lastName": "Valentine", "dateOfBirth": "1989-03-31", "gender": "FEMALE", "email": "stephen83@watson.com", "phone": "108-092-9991", "socialSecurity": "604-98-0418", "driversLicense": "SC4514345203", "income": 30619692, "address": "427 Roy Path Suite 009", "city": "Kellyview", "state": "WY", "zipcode": "25849", "mailingAddress": "9795 Bryan Island Suite 740", "mailingCity": "Benjaminchester", "mailingState": "ID", "mailingZipcode": "47885"}
+2022-01-18 11:00:52,200 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,237 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,239 Success, added applicant
+2022-01-18 11:00:52,240 Adding applicant {"firstName": "Laura", "lastName": "Edwards", "dateOfBirth": "2019-06-20", "gender": "UNSPECIFIED", "email": "wnguyen@chandler.com", "phone": "320-504-5155", "socialSecurity": "281-02-5892", "driversLicense": "LA6248307046", "income": 16264501, "address": "9011 Kenneth Point Apt. 288", "city": "Rodriguezland", "state": "NJ", "zipcode": "81095", "mailingAddress": "57348 Williams Cliff", "mailingCity": "Lake Nataliestad", "mailingState": "DE", "mailingZipcode": "03652"}
+2022-01-18 11:00:52,241 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,247 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,248 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,248 ["Age must be at least 18."]
+2022-01-18 11:00:52,249 Adding applicant {"firstName": "Tanner", "lastName": "Vincent", "dateOfBirth": "2016-12-20", "gender": "UNSPECIFIED", "email": "gregorydavid@mora.com", "phone": "865-606-1650", "socialSecurity": "575-92-6259", "driversLicense": "TN8046353576", "income": 52780366, "address": "2892 Amy Lodge Apt. 788", "city": "Janethaven", "state": "DE", "zipcode": "30318", "mailingAddress": "364 Brown Cape", "mailingCity": "New Juanmouth", "mailingState": "VT", "mailingZipcode": "53454"}
+2022-01-18 11:00:52,250 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,257 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,258 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,258 ["Age must be at least 18."]
+2022-01-18 11:00:52,259 Adding applicant {"firstName": "Melissa", "lastName": "Wilson", "dateOfBirth": "1980-10-29", "gender": "FEMALE", "email": "davidmartinez@yahoo.com", "phone": "000-647-6708", "socialSecurity": "066-42-8276", "driversLicense": "NJ6812348000", "income": 12179510, "address": "80522 Sara Hill Suite 215", "city": "Port Bobbyport", "state": "IA", "zipcode": "05295", "mailingAddress": "9383 Judith Turnpike Apt. 867", "mailingCity": "Whiteview", "mailingState": "DC", "mailingZipcode": "87838"}
+2022-01-18 11:00:52,261 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,307 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,308 Success, added applicant
+2022-01-18 11:00:52,309 Adding applicant {"firstName": "Calvin", "lastName": "Rhodes", "dateOfBirth": "2006-03-28", "gender": "FEMALE", "email": "rhonda23@gmail.com", "phone": "336-865-8204", "socialSecurity": "063-73-7599", "driversLicense": "CO7449804855", "income": 29431520, "address": "398 Kevin Park Suite 643", "city": "Christophermouth", "state": "HI", "zipcode": "80074", "mailingAddress": "2811 Cuevas Valleys Suite 000", "mailingCity": "Gallowaybury", "mailingState": "RI", "mailingZipcode": "47777"}
+2022-01-18 11:00:52,310 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,320 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,321 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,321 ["Age must be at least 18."]
+2022-01-18 11:00:52,322 Adding applicant {"firstName": "Eric", "lastName": "Mitchell", "dateOfBirth": "2015-08-22", "gender": "UNSPECIFIED", "email": "joshua98@gmail.com", "phone": "371-490-5060", "socialSecurity": "235-59-6724", "driversLicense": "MT7438564375", "income": 19757488, "address": "0018 Adam Key", "city": "Tracyfort", "state": "AR", "zipcode": "39805", "mailingAddress": "681 Michelle Ports Suite 895", "mailingCity": "Lake Nicolechester", "mailingState": "NV", "mailingZipcode": "87637"}
+2022-01-18 11:00:52,323 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,329 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,331 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,331 ["Age must be at least 18."]
+2022-01-18 11:00:52,332 Adding applicant {"firstName": "Gary", "lastName": "Fisher", "dateOfBirth": "2000-12-30", "gender": "OTHER", "email": "martinezcrystal@yahoo.com", "phone": "518-687-1694", "socialSecurity": "967-54-5679", "driversLicense": "AR1650884029", "income": 64706224, "address": "971 Kurt Fort Apt. 056", "city": "New Amandafort", "state": "VT", "zipcode": "85263", "mailingAddress": "5002 Joshua Run", "mailingCity": "Whitefort", "mailingState": "GA", "mailingZipcode": "10483"}
+2022-01-18 11:00:52,334 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,378 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,379 Success, added applicant
+2022-01-18 11:00:52,380 Adding applicant {"firstName": "Corey", "lastName": "Mills", "dateOfBirth": "2011-12-01", "gender": "FEMALE", "email": "leonarddavila@mcclain-ward.com", "phone": "705-462-9098", "socialSecurity": "638-58-7410", "driversLicense": "NC5445671334", "income": 94575630, "address": "3845 Gilbert Crossing", "city": "New Alexborough", "state": "CT", "zipcode": "76962", "mailingAddress": "66468 Diana Divide", "mailingCity": "Manuelborough", "mailingState": "FL", "mailingZipcode": "32619"}
+2022-01-18 11:00:52,381 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,388 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,389 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,389 ["Age must be at least 18."]
+2022-01-18 11:00:52,390 Adding applicant {"firstName": "Melissa", "lastName": "Webb", "dateOfBirth": "1996-08-03", "gender": "FEMALE", "email": "ashleyrobinson@hotmail.com", "phone": "332-246-6431", "socialSecurity": "297-27-1022", "driversLicense": "CA6074992099", "income": 99922941, "address": "517 Jennifer Locks Apt. 755", "city": "Herrerastad", "state": "KS", "zipcode": "79668", "mailingAddress": "4404 Carl Glens Apt. 366", "mailingCity": "Danielton", "mailingState": "WI", "mailingZipcode": "64419"}
+2022-01-18 11:00:52,391 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,437 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,438 Success, added applicant
+2022-01-18 11:00:52,440 Adding applicant {"firstName": "Alexander", "lastName": "Miller", "dateOfBirth": "1974-03-03", "gender": "FEMALE", "email": "matthewcampbell@hotmail.com", "phone": "387-261-1783", "socialSecurity": "233-79-1446", "driversLicense": "KS0796561641", "income": 16010231, "address": "1376 Caldwell Trafficway", "city": "West John", "state": "PA", "zipcode": "85008", "mailingAddress": "847 Cox Key Suite 049", "mailingCity": "South Virginia", "mailingState": "OK", "mailingZipcode": "09878"}
+2022-01-18 11:00:52,442 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,486 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,487 Success, added applicant
+2022-01-18 11:00:52,488 Adding applicant {"firstName": "Walter", "lastName": "Floyd", "dateOfBirth": "2010-01-09", "gender": "OTHER", "email": "shelly32@palmer.info", "phone": "413-575-3267", "socialSecurity": "310-87-1021", "driversLicense": "AR1643843811", "income": 65815767, "address": "50830 Deborah Greens", "city": "Hughesland", "state": "MT", "zipcode": "84092", "mailingAddress": "423 Carol Harbors Suite 729", "mailingCity": "Garciaville", "mailingState": "AR", "mailingZipcode": "63219"}
+2022-01-18 11:00:52,490 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,497 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,498 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,498 ["Age must be at least 18."]
+2022-01-18 11:00:52,499 Adding applicant {"firstName": "April", "lastName": "Dougherty", "dateOfBirth": "1972-12-31", "gender": "UNSPECIFIED", "email": "georgelowe@martin.com", "phone": "707-836-9602", "socialSecurity": "285-75-9204", "driversLicense": "TN7705838397", "income": 22160739, "address": "7019 Estrada Walks Suite 000", "city": "Leetown", "state": "MS", "zipcode": "60953", "mailingAddress": "7223 Howe Station", "mailingCity": "Norrishaven", "mailingState": "FL", "mailingZipcode": "36640"}
+2022-01-18 11:00:52,501 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,547 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,548 Success, added applicant
+2022-01-18 11:00:52,550 Adding applicant {"firstName": "Christine", "lastName": "Lee", "dateOfBirth": "1971-07-18", "gender": "OTHER", "email": "juliearnold@yahoo.com", "phone": "392-511-1042", "socialSecurity": "256-76-5531", "driversLicense": "LA1681593558", "income": 23634463, "address": "237 John Pine", "city": "North Robert", "state": "ND", "zipcode": "58351", "mailingAddress": "076 Choi Park", "mailingCity": "East Matthew", "mailingState": "GA", "mailingZipcode": "64650"}
+2022-01-18 11:00:52,551 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,600 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,601 Success, added applicant
+2022-01-18 11:00:52,602 Adding applicant {"firstName": "Beverly", "lastName": "Wilson", "dateOfBirth": "1996-03-16", "gender": "OTHER", "email": "jacksonerin@hotmail.com", "phone": "054-965-1203", "socialSecurity": "394-04-4830", "driversLicense": "MT8283659546", "income": 8939281, "address": "7763 Richard Flats", "city": "Stephenton", "state": "WI", "zipcode": "24227", "mailingAddress": "657 Kaiser Road Suite 816", "mailingCity": "Heathbury", "mailingState": "FL", "mailingZipcode": "91143"}
+2022-01-18 11:00:52,604 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,655 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,657 Success, added applicant
+2022-01-18 11:00:52,659 Adding applicant {"firstName": "Teresa", "lastName": "Chambers", "dateOfBirth": "1997-01-26", "gender": "FEMALE", "email": "brandi30@webster.com", "phone": "576-734-6471", "socialSecurity": "115-51-9266", "driversLicense": "MS1699112661", "income": 5669342, "address": "3546 Robin Course", "city": "Tannermouth", "state": "SD", "zipcode": "65599", "mailingAddress": "5557 Mary Mews", "mailingCity": "Wendymouth", "mailingState": "MD", "mailingZipcode": "45853"}
+2022-01-18 11:00:52,660 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,709 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,710 Success, added applicant
+2022-01-18 11:00:52,712 Adding applicant {"firstName": "Desiree", "lastName": "Farrell", "dateOfBirth": "2019-10-24", "gender": "OTHER", "email": "zgarcia@yahoo.com", "phone": "064-445-7286", "socialSecurity": "400-84-4109", "driversLicense": "NJ2244058462", "income": 75253527, "address": "542 Tammy Mill Apt. 362", "city": "Port Kristen", "state": "ID", "zipcode": "23407", "mailingAddress": "042 Figueroa Station Suite 395", "mailingCity": "Harrisview", "mailingState": "OK", "mailingZipcode": "35373"}
+2022-01-18 11:00:52,713 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,718 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,719 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,719 ["Age must be at least 18."]
+2022-01-18 11:00:52,721 Adding applicant {"firstName": "Jillian", "lastName": "Jackson", "dateOfBirth": "2021-08-16", "gender": "FEMALE", "email": "johnsonjustin@taylor.com", "phone": "551-313-3508", "socialSecurity": "329-98-6237", "driversLicense": "ID7891464259", "income": 49676036, "address": "680 Alicia Junctions", "city": "East Crystalbury", "state": "NM", "zipcode": "71045", "mailingAddress": "1471 Debbie Ford", "mailingCity": "New Jasminehaven", "mailingState": "MD", "mailingZipcode": "10053"}
+2022-01-18 11:00:52,723 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,729 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,730 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,731 ["Age must be at least 18."]
+2022-01-18 11:00:52,732 Adding applicant {"firstName": "John", "lastName": "Roy", "dateOfBirth": "2012-03-26", "gender": "UNSPECIFIED", "email": "mcgeeheather@johnson.com", "phone": "804-136-4883", "socialSecurity": "104-30-6747", "driversLicense": "AL7664155480", "income": 77643145, "address": "9621 Michael Islands", "city": "New Katrinamouth", "state": "ID", "zipcode": "04123", "mailingAddress": "08819 Nelson Roads Apt. 826", "mailingCity": "Port Kristin", "mailingState": "MA", "mailingZipcode": "33610"}
+2022-01-18 11:00:52,733 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,740 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 400 None
+2022-01-18 11:00:52,741 Warning, applicant information is incomplete. Failed to insert.
+2022-01-18 11:00:52,742 ["Age must be at least 18."]
+2022-01-18 11:00:52,743 Adding applicant {"firstName": "Rhonda", "lastName": "Keith", "dateOfBirth": "1998-10-16", "gender": "OTHER", "email": "yjones@duncan-little.com", "phone": "251-020-1344", "socialSecurity": "207-97-2030", "driversLicense": "FL3074056047", "income": 29793009, "address": "4357 Heath Ranch Suite 135", "city": "Carrollberg", "state": "CA", "zipcode": "04029", "mailingAddress": "908 Ross Unions Apt. 257", "mailingCity": "Joeton", "mailingState": "MT", "mailingZipcode": "15287"}
+2022-01-18 11:00:52,744 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:52,807 http://172.27.80.84:8071 "POST /applicants HTTP/1.1" 201 None
+2022-01-18 11:00:52,808 Success, added applicant
+2022-01-18 11:00:52,810 Preparing to insert 30 applications...
+2022-01-18 11:00:52,818 Registering applicant {"applicationType": "SAVINGS", "noApplicants": "true", "applicantIds": ["3"]}
+2022-01-18 11:00:52,819 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,087 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,089 Success, registered applicant.
+2022-01-18 11:00:53,090 {"id":3,"type":"SAVINGS","applicants":[{"id":3,"firstName":"Ebony","lastName":"Hopkins","dateOfBirth":"1979-04-05","gender":"MALE","email":"scottlowery@gmail.com","phone":"356-604-2985","socialSecurity":"040-25-4786","driversLicense":"MI8065795420","income":80395175,"address":"59428 Tiffany Curve","city":"Port Stephenfurt","state":"NY","zipcode":"28099","mailingAddress":"72407 George Track","mailingCity":"West Mikaylachester","mailingState":"WI","mailingZipcode":"24518","lastModifiedAt":"2022-01-18T16:00:51.808019","createdAt":"2022-01-18T16:00:51.807993"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0012020371","accountType":"SAVINGS"}],"membersCreated":true,"createdMembers":[{"membershipId":"86604456","name":"Ebony Hopkins"}]}
+2022-01-18 11:00:53,090 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["4"]}
+2022-01-18 11:00:53,091 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,150 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,151 Success, registered applicant.
+2022-01-18 11:00:53,151 {"id":4,"type":"CHECKING","applicants":[{"id":4,"firstName":"Shannon","lastName":"Douglas","dateOfBirth":"1979-03-11","gender":"MALE","email":"matthewprice@hotmail.com","phone":"983-388-2531","socialSecurity":"792-62-4253","driversLicense":"MO0420586072","income":79676037,"address":"288 Fuller Mission","city":"Blaketown","state":"KS","zipcode":"09465","mailingAddress":"1024 Leslie Squares Apt. 476","mailingCity":"Mindyton","mailingState":"IA","mailingZipcode":"18934","lastModifiedAt":"2022-01-18T16:00:51.919781","createdAt":"2022-01-18T16:00:51.919764"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0011011523","accountType":"CHECKING"}],"membersCreated":true,"createdMembers":[{"membershipId":"45127377","name":"Shannon Douglas"}]}
+2022-01-18 11:00:53,151 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["5"]}
+2022-01-18 11:00:53,153 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,208 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,209 Success, registered applicant.
+2022-01-18 11:00:53,209 {"id":5,"type":"CHECKING","applicants":[{"id":5,"firstName":"Melinda","lastName":"Haynes","dateOfBirth":"1972-10-23","gender":"MALE","email":"landryjose@hotmail.com","phone":"789-134-0048","socialSecurity":"122-60-8163","driversLicense":"NM4198788354","income":80045760,"address":"4035 Thomas Pines","city":"North Antonio","state":"NV","zipcode":"49207","mailingAddress":"1789 House Spur Apt. 842","mailingCity":"Lewiston","mailingState":"OR","mailingZipcode":"72538","lastModifiedAt":"2022-01-18T16:00:51.967756","createdAt":"2022-01-18T16:00:51.967746"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0011018144","accountType":"CHECKING"}],"membersCreated":true,"createdMembers":[{"membershipId":"80674252","name":"Melinda Haynes"}]}
+2022-01-18 11:00:53,209 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["6"]}
+2022-01-18 11:00:53,210 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,258 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,259 Success, registered applicant.
+2022-01-18 11:00:53,260 {"id":6,"type":"CHECKING","applicants":[{"id":6,"firstName":"Stacy","lastName":"Wise","dateOfBirth":"1993-04-16","gender":"OTHER","email":"kturner@yahoo.com","phone":"093-852-9697","socialSecurity":"831-77-6694","driversLicense":"VA7258224563","income":30635634,"address":"508 George Dam Suite 218","city":"Lake Jose","state":"NE","zipcode":"89995","mailingAddress":"0633 Laura Canyon","mailingCity":"West Stacy","mailingState":"NY","mailingZipcode":"17272","lastModifiedAt":"2022-01-18T16:00:52.015879","createdAt":"2022-01-18T16:00:52.015868"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0011014016","accountType":"CHECKING"}],"membersCreated":true,"createdMembers":[{"membershipId":"71303222","name":"Stacy Wise"}]}
+2022-01-18 11:00:53,260 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["7"]}
+2022-01-18 11:00:53,261 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,317 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,318 Success, registered applicant.
+2022-01-18 11:00:53,318 {"id":7,"type":"CHECKING","applicants":[{"id":7,"firstName":"Mary","lastName":"Daniels","dateOfBirth":"1984-02-09","gender":"UNSPECIFIED","email":"wilsonmichael@armstrong.com","phone":"097-405-6666","socialSecurity":"426-43-3106","driversLicense":"SC2454083083","income":49045037,"address":"8725 Burgess Drives Suite 957","city":"Meganside","state":"AK","zipcode":"11379","mailingAddress":"446 Johnson Station Apt. 627","mailingCity":"Leeport","mailingState":"HI","mailingZipcode":"56587","lastModifiedAt":"2022-01-18T16:00:52.061794","createdAt":"2022-01-18T16:00:52.061781"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0011011810","accountType":"CHECKING"}],"membersCreated":true,"createdMembers":[{"membershipId":"10275255","name":"Mary Daniels"}]}
+2022-01-18 11:00:53,318 Registering applicant {"applicationType": "SAVINGS", "noApplicants": "true", "applicantIds": ["8"]}
+2022-01-18 11:00:53,319 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,368 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,369 Success, registered applicant.
+2022-01-18 11:00:53,369 {"id":8,"type":"SAVINGS","applicants":[{"id":8,"firstName":"Catherine","lastName":"Garza","dateOfBirth":"1971-12-18","gender":"FEMALE","email":"ryanchurch@adkins-farley.com","phone":"644-578-4653","socialSecurity":"814-56-2701","driversLicense":"AR1224090454","income":50520629,"address":"09180 Craig Camp","city":"Marshallburgh","state":"MT","zipcode":"56234","mailingAddress":"3472 Tran Route","mailingCity":"Rachelberg","mailingState":"KY","mailingZipcode":"93101","lastModifiedAt":"2022-01-18T16:00:52.15471","createdAt":"2022-01-18T16:00:52.154698"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0012021100","accountType":"SAVINGS"}],"membersCreated":true,"createdMembers":[{"membershipId":"71416805","name":"Catherine Garza"}]}
+2022-01-18 11:00:53,370 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["9"]}
+2022-01-18 11:00:53,371 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,428 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 201 None
+2022-01-18 11:00:53,429 Success, registered applicant.
+2022-01-18 11:00:53,429 {"id":9,"type":"CHECKING","applicants":[{"id":9,"firstName":"Dennis","lastName":"Valentine","dateOfBirth":"1989-03-31","gender":"FEMALE","email":"stephen83@watson.com","phone":"108-092-9991","socialSecurity":"604-98-0418","driversLicense":"SC4514345203","income":30619692,"address":"427 Roy Path Suite 009","city":"Kellyview","state":"WY","zipcode":"25849","mailingAddress":"9795 Bryan Island Suite 740","mailingCity":"Benjaminchester","mailingState":"ID","mailingZipcode":"47885","lastModifiedAt":"2022-01-18T16:00:52.218146","createdAt":"2022-01-18T16:00:52.218135"}],"status":"APPROVED","reasons":["Application was approved"],"accountsCreated":true,"createdAccounts":[{"accountNumber":"0011010478","accountType":"CHECKING"}],"membersCreated":true,"createdMembers":[{"membershipId":"07213448","name":"Dennis Valentine"}]}
+2022-01-18 11:00:53,430 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,431 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,453 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,454 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,454 Applicant does not exist.
+2022-01-18 11:00:53,454 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,456 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,479 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,479 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,480 Applicant does not exist.
+2022-01-18 11:00:53,480 Registering applicant {"applicationType": "SAVINGS", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,481 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,505 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,507 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,507 Applicant does not exist.
+2022-01-18 11:00:53,507 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,508 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,534 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,535 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,535 Applicant does not exist.
+2022-01-18 11:00:53,536 Registering applicant {"applicationType": "SAVINGS", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,537 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,561 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,562 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,562 Applicant does not exist.
+2022-01-18 11:00:53,563 Registering applicant {"applicationType": "CHECKING_AND_SAVINGS", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,564 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,585 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,586 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,586 Applicant does not exist.
+2022-01-18 11:00:53,586 Registering applicant {"applicationType": "SAVINGS", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,588 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,610 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,611 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,611 Applicant does not exist.
+2022-01-18 11:00:53,612 Registering applicant {"applicationType": "CHECKING", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,613 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,635 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,636 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,636 Applicant does not exist.
+2022-01-18 11:00:53,636 Registering applicant {"applicationType": "SAVINGS", "noApplicants": "true", "applicantIds": ["1"]}
+2022-01-18 11:00:53,637 Starting new HTTP connection (1): 172.27.80.84:8071
+2022-01-18 11:00:53,661 http://172.27.80.84:8071 "POST /applications HTTP/1.1" 404 25
+2022-01-18 11:00:53,662 Warning, applicant id did not match anything in the table. Failed to insert
+2022-01-18 11:00:53,663 Applicant does not exist.
+2022-01-18 11:01:25,988 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:01:25,989 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:01:25,990 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:01:25,990 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:01:25,991 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:01:25,992 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:01:25,993 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:01:25,993 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:01:25,994 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:01:25,995 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:01:25,995 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:01:25,996 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:01:25,997 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:01:25,997 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:01:25,997 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:01:25,998 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:01:25,999 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:01:25,999 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:01:26,000 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:26,000 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:01:26,000 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:01:26,001 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:01:26,002 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:01:26,002 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:26,002 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:01:26,003 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:01:26,004 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:01:26,004 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:01:26,005 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:01:26,005 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:01:26,005 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:01:26,007 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:01:26,008 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:01:26,010 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:01:26,010 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:26,010 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:26,011 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:01:26,012 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:01:26,012 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:26,013 Preparing to insert users...
+2022-01-18 11:01:56,428 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:01:56,430 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:01:56,430 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:01:56,431 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:01:56,432 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:01:56,432 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:01:56,433 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:01:56,433 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:01:56,434 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:01:56,435 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:01:56,435 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:01:56,436 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:01:56,436 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:01:56,437 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:01:56,437 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:01:56,438 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:01:56,438 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:01:56,439 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:01:56,439 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:56,440 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:01:56,440 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:01:56,441 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:01:56,441 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:01:56,442 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:56,442 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:01:56,443 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:01:56,443 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:01:56,444 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:01:56,444 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:01:56,445 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:01:56,445 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:01:56,446 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:01:56,448 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:01:56,449 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:01:56,450 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:56,450 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:56,451 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:01:56,452 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:01:56,452 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:01:56,452 Preparing to insert users...
+2022-01-18 11:02:46,823 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:02:46,830 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:02:46,841 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:02:46,844 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:02:46,848 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:02:46,852 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:02:46,858 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:02:46,859 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:02:46,865 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:02:46,867 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:02:46,872 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:02:46,875 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:02:46,880 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:02:46,881 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:02:46,886 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:02:46,889 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:02:46,895 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:02:46,898 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:02:46,903 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:02:46,903 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:02:46,904 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:02:46,910 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:02:46,914 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:02:46,920 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:02:46,920 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:02:46,924 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:02:46,929 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:02:46,931 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:02:46,940 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:02:46,941 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:02:46,945 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:02:46,951 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:02:46,959 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:02:46,965 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:02:46,972 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:02:46,972 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:02:46,973 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:02:46,977 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:02:46,982 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:02:46,983 Preparing to insert users...
+2022-01-18 11:06:12,208 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:06:12,213 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:06:12,215 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:06:12,218 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:06:12,219 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:06:12,221 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:06:12,222 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:06:12,222 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:06:12,223 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:06:12,225 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:06:12,226 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:06:12,230 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:06:12,231 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:06:12,232 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:06:12,233 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:06:12,235 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:06:12,236 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:06:12,239 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:06:12,240 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:06:12,240 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:06:12,241 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:06:12,241 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:06:12,245 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:06:12,246 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:06:12,246 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:06:12,249 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:06:12,250 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:06:12,252 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:06:12,253 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:06:12,253 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:06:12,254 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:06:12,260 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:06:12,262 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:06:12,269 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:06:12,270 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:06:12,270 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:06:12,270 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:06:12,275 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:06:12,275 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:06:12,275 Preparing to insert users...
+2022-01-18 11:08:33,656 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:08:33,661 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:08:33,663 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:08:33,667 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:08:33,667 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:08:33,670 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:08:33,671 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:08:33,671 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:08:33,673 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:08:33,675 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:08:33,675 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:08:33,678 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:08:33,679 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:08:33,680 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:08:33,680 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:08:33,683 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:08:33,683 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:08:33,687 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:08:33,687 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:08:33,688 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:08:33,688 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:08:33,689 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:08:33,693 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:08:33,693 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:08:33,693 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:08:33,696 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:08:33,696 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:08:33,698 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:08:33,699 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:08:33,700 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:08:33,701 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:08:33,706 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:08:33,708 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:08:33,715 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:08:33,716 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:08:33,716 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:08:33,716 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:08:33,721 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:08:33,721 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:08:33,721 Preparing to insert users...
+2022-01-18 11:09:46,698 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:09:46,703 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:09:46,705 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:09:46,707 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:09:46,708 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:09:46,710 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:09:46,710 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:09:46,711 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:09:46,712 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:09:46,714 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:09:46,715 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:09:46,718 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:09:46,718 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:09:46,719 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:09:46,719 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:09:46,721 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:09:46,722 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:09:46,726 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:09:46,727 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:09:46,727 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:09:46,728 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:09:46,729 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:09:46,732 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:09:46,732 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:09:46,733 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:09:46,735 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:09:46,736 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:09:46,738 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:09:46,738 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:09:46,739 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:09:46,740 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:09:46,746 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:09:46,747 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:09:46,752 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:09:46,752 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:09:46,753 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:09:46,753 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:09:46,758 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:09:46,758 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:09:46,758 Preparing to insert users...
+2022-01-18 11:09:46,759 Registering user {"role": "member", "username": "timothy22", "password": "b8*5T3Om*&kREj", "firstName": "Grace", "lastName": "Cook", "email": "scottlowery@gmail.com", "phone": "356-604-2985", "membershipId": "86604456", "lastFourOfSSN": "4786"}
+2022-01-18 11:09:46,764 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:47,453 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:09:47,454 Experienced internal server error, which occurs on a success.
+2022-01-18 11:09:47,454 Please contact your administrator.
+2022-01-18 11:09:47,455 Registering user {"role": "member", "username": "zwilliams", "password": "S2IFqz7&", "firstName": "Brittany", "lastName": "Christian", "email": "matthewprice@hotmail.com", "phone": "983-388-2531", "membershipId": "45127377", "lastFourOfSSN": "4253"}
+2022-01-18 11:09:47,456 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:47,635 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:09:47,636 Experienced internal server error, which occurs on a success.
+2022-01-18 11:09:47,636 Please contact your administrator.
+2022-01-18 11:09:47,637 Registering user {"role": "member", "username": "gonzaleskristen", "password": "qE*Iv3m", "firstName": "Kathryn", "lastName": "Reese", "email": "landryjose@hotmail.com", "phone": "789-134-0048", "membershipId": "80674252", "lastFourOfSSN": "8163"}
+2022-01-18 11:09:47,639 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:47,660 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 400 None
+2022-01-18 11:09:47,661 Warning, user information is incomplete. Failed to insert.
+2022-01-18 11:09:47,661 ["Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character."]
+2022-01-18 11:09:47,662 Registering user {"role": "member", "username": "yjohnson", "password": "$!lL8dEB$8$Y8", "firstName": "Patricia", "lastName": "Roberts", "email": "kturner@yahoo.com", "phone": "093-852-9697", "membershipId": "71303222", "lastFourOfSSN": "6694"}
+2022-01-18 11:09:47,662 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:47,834 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:09:47,834 Experienced internal server error, which occurs on a success.
+2022-01-18 11:09:47,835 Please contact your administrator.
+2022-01-18 11:09:47,835 Registering user {"role": "member", "username": "johnsonrobin", "password": "*Of2phy@", "firstName": "Samantha", "lastName": "Ware", "email": "wilsonmichael@armstrong.com", "phone": "097-405-6666", "membershipId": "10275255", "lastFourOfSSN": "3106"}
+2022-01-18 11:09:47,837 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:48,006 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:09:48,007 Experienced internal server error, which occurs on a success.
+2022-01-18 11:09:48,007 Please contact your administrator.
+2022-01-18 11:09:48,008 Registering user {"role": "member", "username": "jennifer91", "password": "85?7qs5aS%PmR@R", "firstName": "Cody", "lastName": "Davis", "email": "ryanchurch@adkins-farley.com", "phone": "644-578-4653", "membershipId": "71416805", "lastFourOfSSN": "2701"}
+2022-01-18 11:09:48,010 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:48,185 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:09:48,186 Experienced internal server error, which occurs on a success.
+2022-01-18 11:09:48,186 Please contact your administrator.
+2022-01-18 11:09:48,187 Registering user {"role": "member", "username": "robertbowers", "password": "a$x?0ef&D*", "firstName": "Renee", "lastName": "Thompson", "email": "stephen83@watson.com", "phone": "108-092-9991", "membershipId": "07213448", "lastFourOfSSN": "0418"}
+2022-01-18 11:09:48,189 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:09:48,364 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:09:48,364 Experienced internal server error, which occurs on a success.
+2022-01-18 11:09:48,364 Please contact your administrator.
+2022-01-18 11:10:43,681 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:10:43,682 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:10:43,683 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:10:43,683 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:10:43,684 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:10:43,684 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:10:43,684 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:10:43,685 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:10:43,686 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:10:43,686 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:10:43,687 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:10:43,688 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:10:43,688 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:10:43,689 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:10:43,689 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:10:43,690 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:10:43,690 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:10:43,691 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:10:43,691 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:10:43,692 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:10:43,692 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:10:43,692 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:10:43,693 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:10:43,694 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:10:43,694 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:10:43,695 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:10:43,695 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:10:43,696 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:10:43,696 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:10:43,697 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:10:43,697 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:10:43,698 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:10:43,700 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:10:43,702 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:10:43,702 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:10:43,702 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:10:43,703 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:10:43,704 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:10:43,704 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:10:43,705 Preparing to insert users...
+2022-01-18 11:10:43,708 Registering user {"role": "member", "username": "kwebb", "password": "4oQV18@P2U?k", "firstName": "Jennifer", "lastName": "Valenzuela", "email": "scottlowery@gmail.com", "phone": "356-604-2985", "membershipId": "86604456", "lastFourOfSSN": "4786"}
+2022-01-18 11:10:43,710 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:43,717 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 400 None
+2022-01-18 11:10:43,719 Warning, user information is incomplete. Failed to insert.
+2022-01-18 11:10:43,719 ["Username must be between 6-20 characters and only include letters, numbers, underscores, and periods."]
+2022-01-18 11:10:43,720 Registering user {"role": "member", "username": "steven43", "password": "!d$2L%ia2", "firstName": "Michael", "lastName": "Palmer", "email": "matthewprice@hotmail.com", "phone": "983-388-2531", "membershipId": "45127377", "lastFourOfSSN": "4253"}
+2022-01-18 11:10:43,721 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:43,758 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 409 43
+2022-01-18 11:10:43,759 Warning, user information is duplicated. Failed to insert
+2022-01-18 11:10:43,760 A user already exists with this membership.
+2022-01-18 11:10:43,760 Registering user {"role": "member", "username": "shelbyleblanc", "password": "7%YNcn%J&009voW", "firstName": "Hailey", "lastName": "Hall", "email": "landryjose@hotmail.com", "phone": "789-134-0048", "membershipId": "80674252", "lastFourOfSSN": "8163"}
+2022-01-18 11:10:43,761 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:44,073 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 500 34
+2022-01-18 11:10:44,073 Experienced internal server error, which occurs on a success.
+2022-01-18 11:10:44,074 Please contact your administrator.
+2022-01-18 11:10:44,075 Registering user {"role": "member", "username": "bryantdonald", "password": "kX%7*t", "firstName": "Victoria", "lastName": "Brown", "email": "kturner@yahoo.com", "phone": "093-852-9697", "membershipId": "71303222", "lastFourOfSSN": "6694"}
+2022-01-18 11:10:44,076 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:44,084 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 400 None
+2022-01-18 11:10:44,085 Warning, user information is incomplete. Failed to insert.
+2022-01-18 11:10:44,085 ["Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character."]
+2022-01-18 11:10:44,086 Registering user {"role": "member", "username": "derek87", "password": "J1NGI*&?$j", "firstName": "Virginia", "lastName": "Turner", "email": "wilsonmichael@armstrong.com", "phone": "097-405-6666", "membershipId": "10275255", "lastFourOfSSN": "3106"}
+2022-01-18 11:10:44,087 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:44,118 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 409 43
+2022-01-18 11:10:44,119 Warning, user information is duplicated. Failed to insert
+2022-01-18 11:10:44,120 A user already exists with this membership.
+2022-01-18 11:10:44,120 Registering user {"role": "member", "username": "igreene", "password": "ZVs?%bk3iAN", "firstName": "Danny", "lastName": "Hart", "email": "ryanchurch@adkins-farley.com", "phone": "644-578-4653", "membershipId": "71416805", "lastFourOfSSN": "2701"}
+2022-01-18 11:10:44,122 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:44,151 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 409 43
+2022-01-18 11:10:44,152 Warning, user information is duplicated. Failed to insert
+2022-01-18 11:10:44,153 A user already exists with this membership.
+2022-01-18 11:10:44,154 Registering user {"role": "member", "username": "qlee", "password": "p3$SVB!", "firstName": "Kaitlin", "lastName": "Cowan", "email": "stephen83@watson.com", "phone": "108-092-9991", "membershipId": "07213448", "lastFourOfSSN": "0418"}
+2022-01-18 11:10:44,155 Starting new HTTP connection (1): 172.27.80.84:8070
+2022-01-18 11:10:44,162 http://172.27.80.84:8070 "POST /users/registration HTTP/1.1" 400 None
+2022-01-18 11:10:44,163 Warning, user information is incomplete. Failed to insert.
+2022-01-18 11:10:44,163 ["Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character.","Username must be between 6-20 characters and only include letters, numbers, underscores, and periods."]
+2022-01-18 11:11:18,276 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:11:18,278 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:11:18,278 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:11:18,279 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:11:18,280 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:11:18,280 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:11:18,281 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:11:18,281 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:11:18,282 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:11:18,283 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:11:18,283 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:11:18,284 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:11:18,284 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:11:18,285 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:11:18,285 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:11:18,286 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:11:18,286 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:11:18,287 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:11:18,288 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:11:18,288 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:11:18,288 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:11:18,289 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:11:18,290 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:11:18,290 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:11:18,290 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:11:18,291 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:11:18,291 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:11:18,292 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:11:18,293 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:11:18,293 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:11:18,293 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:11:18,295 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:11:18,296 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:11:18,297 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:11:18,298 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:11:18,298 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:11:18,299 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:11:18,300 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:11:18,300 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:11:18,302 Registering bank {"routingNumber": "067573004", "address": "300 Mendoza Plaza", "city": "South Donnaside", "state": "WI", "zipcode": "92600"}
+2022-01-18 11:11:18,305 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,705 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,710 Success, inserted bank.
+2022-01-18 11:11:18,711 {"id":2,"routingNumber":"067573004","address":"300 Mendoza Plaza","city":"South Donnaside","state":"WI","zipcode":"92600"}
+2022-01-18 11:11:18,711 Registering bank {"routingNumber": "062160849", "address": "3475 Cynthia Ford", "city": "East Henry", "state": "NV", "zipcode": "80797"}
+2022-01-18 11:11:18,712 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,742 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,744 Success, inserted bank.
+2022-01-18 11:11:18,745 {"id":3,"routingNumber":"062160849","address":"3475 Cynthia Ford","city":"East Henry","state":"NV","zipcode":"80797"}
+2022-01-18 11:11:18,745 Registering bank {"routingNumber": "039442480", "address": "4977 Bradley Island Apt. 362", "city": "Conradmouth", "state": "PA", "zipcode": "76704"}
+2022-01-18 11:11:18,747 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,773 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,775 Success, inserted bank.
+2022-01-18 11:11:18,775 {"id":4,"routingNumber":"039442480","address":"4977 Bradley Island Apt. 362","city":"Conradmouth","state":"PA","zipcode":"76704"}
+2022-01-18 11:11:18,776 Registering bank {"routingNumber": "073461210", "address": "14140 Kathryn Junction", "city": "Hughesville", "state": "HI", "zipcode": "18299"}
+2022-01-18 11:11:18,777 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,801 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,803 Success, inserted bank.
+2022-01-18 11:11:18,803 {"id":5,"routingNumber":"073461210","address":"14140 Kathryn Junction","city":"Hughesville","state":"HI","zipcode":"18299"}
+2022-01-18 11:11:18,803 Registering bank {"routingNumber": "083982336", "address": "13180 Lori Brook Suite 706", "city": "South Williammouth", "state": "MS", "zipcode": "45166"}
+2022-01-18 11:11:18,804 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,828 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,829 Success, inserted bank.
+2022-01-18 11:11:18,829 {"id":6,"routingNumber":"083982336","address":"13180 Lori Brook Suite 706","city":"South Williammouth","state":"MS","zipcode":"45166"}
+2022-01-18 11:11:18,830 Registering bank {"routingNumber": "016015908", "address": "5117 Davidson Turnpike", "city": "Lake Matthewberg", "state": "NC", "zipcode": "61912"}
+2022-01-18 11:11:18,831 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,856 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,857 Success, inserted bank.
+2022-01-18 11:11:18,857 {"id":7,"routingNumber":"016015908","address":"5117 Davidson Turnpike","city":"Lake Matthewberg","state":"NC","zipcode":"61912"}
+2022-01-18 11:11:18,858 Registering bank {"routingNumber": "068852193", "address": "8983 Harris Harbor", "city": "Smithburgh", "state": "WA", "zipcode": "59229"}
+2022-01-18 11:11:18,859 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,884 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,885 Success, inserted bank.
+2022-01-18 11:11:18,885 {"id":8,"routingNumber":"068852193","address":"8983 Harris Harbor","city":"Smithburgh","state":"WA","zipcode":"59229"}
+2022-01-18 11:11:18,886 Registering bank {"routingNumber": "115067983", "address": "1930 Steven Estates Apt. 350", "city": "Lake Andrea", "state": "SD", "zipcode": "72780"}
+2022-01-18 11:11:18,886 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,914 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,915 Success, inserted bank.
+2022-01-18 11:11:18,916 {"id":9,"routingNumber":"115067983","address":"1930 Steven Estates Apt. 350","city":"Lake Andrea","state":"SD","zipcode":"72780"}
+2022-01-18 11:11:18,916 Registering bank {"routingNumber": "091274078", "address": "3726 Tyler Views Apt. 073", "city": "Port Corey", "state": "AR", "zipcode": "73643"}
+2022-01-18 11:11:18,917 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,942 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,943 Success, inserted bank.
+2022-01-18 11:11:18,943 {"id":10,"routingNumber":"091274078","address":"3726 Tyler Views Apt. 073","city":"Port Corey","state":"AR","zipcode":"73643"}
+2022-01-18 11:11:18,944 Registering bank {"routingNumber": "112988191", "address": "0977 Mary Ville", "city": "Mahoneyberg", "state": "IN", "zipcode": "54455"}
+2022-01-18 11:11:18,945 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:11:18,970 http://172.27.80.84:8083 "POST /banks HTTP/1.1" 201 None
+2022-01-18 11:11:18,971 Success, inserted bank.
+2022-01-18 11:11:18,972 {"id":11,"routingNumber":"112988191","address":"0977 Mary Ville","city":"Mahoneyberg","state":"IN","zipcode":"54455"}
+2022-01-18 11:13:05,112 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:13:05,113 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:13:05,114 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:13:05,114 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:13:05,115 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:13:05,115 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:13:05,116 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:13:05,116 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:13:05,118 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:13:05,118 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:13:05,119 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:13:05,119 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:13:05,120 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:13:05,120 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:13:05,121 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:13:05,121 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:13:05,122 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:13:05,122 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:13:05,123 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,123 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:13:05,123 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:13:05,124 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:13:05,125 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:13:05,125 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,125 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:13:05,126 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:13:05,127 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:13:05,127 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:13:05,128 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:13:05,128 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:13:05,128 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:13:05,130 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:13:05,131 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:13:05,132 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:13:05,133 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,133 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,133 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:13:05,134 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:13:05,135 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,136 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:13:05,137 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:13:05,137 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:13:05,138 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:13:05,138 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:13:05,139 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:13:05,139 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:13:05,139 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:13:05,139 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:13:05,140 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:13:05,140 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:13:05,141 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:13:05,141 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:13:05,141 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:13:05,142 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:13:05,142 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:13:05,143 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:13:05,143 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:13:05,144 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,144 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:13:05,144 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:13:05,145 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:13:05,145 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:13:05,146 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,146 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:13:05,147 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:13:05,147 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:13:05,147 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:13:05,148 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:13:05,148 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:13:05,148 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:13:05,150 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:13:05,150 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:13:05,152 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:13:05,152 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,152 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,152 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:13:05,153 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:13:05,154 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:05,155 Registering branch {"name": "iterate integrated e-markets", "address": "8764 Howard Forge", "city": "West Donald", "state": "CT", "zipcode": "81551", "phone": "489-241-1578", "bankID": "6"}
+2022-01-18 11:13:05,157 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,260 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,261 Success, inserted branch.
+2022-01-18 11:13:05,261 {"id":2,"name":"iterate integrated e-markets","address":"8764 Howard Forge","city":"West Donald","state":"CT","zipcode":"81551","phone":"489-241-1578","bank":{"id":6,"routingNumber":"083982336","address":"13180 Lori Brook Suite 706","city":"South Williammouth","state":"MS","zipcode":"45166"}}
+2022-01-18 11:13:05,262 Registering branch {"name": "transform synergistic e-commerce", "address": "387 Grimes Green Apt. 801", "city": "Pagetown", "state": "RI", "zipcode": "65195", "phone": "535-139-3328", "bankID": "9"}
+2022-01-18 11:13:05,264 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,316 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,318 Success, inserted branch.
+2022-01-18 11:13:05,318 {"id":3,"name":"transform synergistic e-commerce","address":"387 Grimes Green Apt. 801","city":"Pagetown","state":"RI","zipcode":"65195","phone":"535-139-3328","bank":{"id":9,"routingNumber":"115067983","address":"1930 Steven Estates Apt. 350","city":"Lake Andrea","state":"SD","zipcode":"72780"}}
+2022-01-18 11:13:05,319 Registering branch {"name": "grow e-business infrastructures", "address": "714 Mann Plaza Suite 839", "city": "Seanfurt", "state": "MD", "zipcode": "75952", "phone": "342-320-9471", "bankID": "8"}
+2022-01-18 11:13:05,320 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,368 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,369 Success, inserted branch.
+2022-01-18 11:13:05,369 {"id":4,"name":"grow e-business infrastructures","address":"714 Mann Plaza Suite 839","city":"Seanfurt","state":"MD","zipcode":"75952","phone":"342-320-9471","bank":{"id":8,"routingNumber":"068852193","address":"8983 Harris Harbor","city":"Smithburgh","state":"WA","zipcode":"59229"}}
+2022-01-18 11:13:05,370 Registering branch {"name": "evolve end-to-end eyeballs", "address": "86848 Melissa Springs", "city": "Rileymouth", "state": "NM", "zipcode": "87040", "phone": "515-917-9533", "bankID": "4"}
+2022-01-18 11:13:05,371 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,429 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,431 Success, inserted branch.
+2022-01-18 11:13:05,431 {"id":4,"name":"evolve end-to-end eyeballs","address":"86848 Melissa Springs","city":"Rileymouth","state":"NM","zipcode":"87040","phone":"515-917-9533","bank":{"id":4,"routingNumber":"039442480","address":"4977 Bradley Island Apt. 362","city":"Conradmouth","state":"PA","zipcode":"76704"}}
+2022-01-18 11:13:05,432 Registering branch {"name": "utilize real-time initiatives", "address": "2560 Krista Walk", "city": "North Lisa", "state": "SC", "zipcode": "70519", "phone": "910-139-9161", "bankID": "8"}
+2022-01-18 11:13:05,434 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,486 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,487 Success, inserted branch.
+2022-01-18 11:13:05,488 {"id":5,"name":"utilize real-time initiatives","address":"2560 Krista Walk","city":"North Lisa","state":"SC","zipcode":"70519","phone":"910-139-9161","bank":{"id":8,"routingNumber":"068852193","address":"8983 Harris Harbor","city":"Smithburgh","state":"WA","zipcode":"59229"}}
+2022-01-18 11:13:05,488 Registering branch {"name": "disintermediate one-to-one paradigms", "address": "21730 Amy River", "city": "Port Jordanbury", "state": "CA", "zipcode": "85294", "phone": "456-208-7091", "bankID": "8"}
+2022-01-18 11:13:05,490 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,538 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,539 Success, inserted branch.
+2022-01-18 11:13:05,539 {"id":6,"name":"disintermediate one-to-one paradigms","address":"21730 Amy River","city":"Port Jordanbury","state":"CA","zipcode":"85294","phone":"456-208-7091","bank":{"id":8,"routingNumber":"068852193","address":"8983 Harris Harbor","city":"Smithburgh","state":"WA","zipcode":"59229"}}
+2022-01-18 11:13:05,540 Registering branch {"name": "scale impactful solutions", "address": "7923 Kristina Estate Apt. 584", "city": "New Sandraburgh", "state": "AK", "zipcode": "62317", "phone": "698-456-4280", "bankID": "10"}
+2022-01-18 11:13:05,541 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,586 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,587 Success, inserted branch.
+2022-01-18 11:13:05,587 {"id":7,"name":"scale impactful solutions","address":"7923 Kristina Estate Apt. 584","city":"New Sandraburgh","state":"AK","zipcode":"62317","phone":"698-456-4280","bank":{"id":10,"routingNumber":"091274078","address":"3726 Tyler Views Apt. 073","city":"Port Corey","state":"AR","zipcode":"73643"}}
+2022-01-18 11:13:05,588 Registering branch {"name": "target strategic supply-chains", "address": "423 Bell Heights", "city": "Brittanyberg", "state": "VT", "zipcode": "41172", "phone": "661-093-5233", "bankID": "5"}
+2022-01-18 11:13:05,589 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,645 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,646 Success, inserted branch.
+2022-01-18 11:13:05,646 {"id":5,"name":"target strategic supply-chains","address":"423 Bell Heights","city":"Brittanyberg","state":"VT","zipcode":"41172","phone":"661-093-5233","bank":{"id":5,"routingNumber":"073461210","address":"14140 Kathryn Junction","city":"Hughesville","state":"HI","zipcode":"18299"}}
+2022-01-18 11:13:05,647 Registering branch {"name": "whiteboard customized architectures", "address": "69602 Brown Squares Apt. 787", "city": "North Troyport", "state": "NH", "zipcode": "07035", "phone": "638-120-6650", "bankID": "5"}
+2022-01-18 11:13:05,648 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,710 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,711 Success, inserted branch.
+2022-01-18 11:13:05,711 {"id":5,"name":"whiteboard customized architectures","address":"69602 Brown Squares Apt. 787","city":"North Troyport","state":"NH","zipcode":"07035","phone":"638-120-6650","bank":{"id":5,"routingNumber":"073461210","address":"14140 Kathryn Junction","city":"Hughesville","state":"HI","zipcode":"18299"}}
+2022-01-18 11:13:05,712 Registering branch {"name": "architect value-added synergies", "address": "19344 Craig Walk", "city": "Burtontown", "state": "KY", "zipcode": "59873", "phone": "142-851-2400", "bankID": "9"}
+2022-01-18 11:13:05,714 Starting new HTTP connection (1): 172.27.80.84:8083
+2022-01-18 11:13:05,766 http://172.27.80.84:8083 "POST /branches HTTP/1.1" 201 None
+2022-01-18 11:13:05,768 Success, inserted branch.
+2022-01-18 11:13:05,769 {"id":8,"name":"architect value-added synergies","address":"19344 Craig Walk","city":"Burtontown","state":"KY","zipcode":"59873","phone":"142-851-2400","bank":{"id":9,"routingNumber":"115067983","address":"1930 Steven Estates Apt. 350","city":"Lake Andrea","state":"SD","zipcode":"72780"}}
+2022-01-18 11:13:33,964 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-01-18 11:13:33,965 Provider `faker.providers.address` has been localized to `en_US`.
+2022-01-18 11:13:33,966 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-01-18 11:13:33,967 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-01-18 11:13:33,967 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-01-18 11:13:33,968 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-01-18 11:13:33,968 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-01-18 11:13:33,968 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-01-18 11:13:33,969 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-01-18 11:13:33,970 Provider `faker.providers.color` has been localized to `en_US`.
+2022-01-18 11:13:33,970 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-01-18 11:13:33,971 Provider `faker.providers.company` has been localized to `en_US`.
+2022-01-18 11:13:33,972 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-01-18 11:13:33,972 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-01-18 11:13:33,972 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-01-18 11:13:33,973 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-01-18 11:13:33,973 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-01-18 11:13:33,974 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-01-18 11:13:33,974 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:33,975 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-01-18 11:13:33,975 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-01-18 11:13:33,975 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-01-18 11:13:33,976 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-01-18 11:13:33,977 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:33,977 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-01-18 11:13:33,978 Provider `faker.providers.job` has been localized to `en_US`.
+2022-01-18 11:13:33,978 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-01-18 11:13:33,979 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-01-18 11:13:33,979 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-01-18 11:13:33,979 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-01-18 11:13:33,980 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-01-18 11:13:33,981 Provider `faker.providers.person` has been localized to `en_US`.
+2022-01-18 11:13:33,982 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-01-18 11:13:33,984 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-01-18 11:13:33,984 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:33,985 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:33,985 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-01-18 11:13:33,986 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-01-18 11:13:33,986 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-01-18 11:13:33,989 Creating transaction {"type": "PAYMENT", "method": "ATM", "amount": 1736, "merchantName": "integrate back-end mindshare", "merchantCode": "76475", "description": "Through despite cause cause believe son would mouth relate own chair better available.", "accountNumber": "0011010478"}
+2022-01-18 11:13:33,992 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,550 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,554 Success, created transaction.
+2022-01-18 11:13:34,555 {"id":3,"type":"PAYMENT","method":"ATM","status":"DENIED","amount":1736,"description":"Through despite cause cause believe son would mouth relate own chair better available.","merchantResponse":{"code":"76475","name":"integrate back-end mindshare","description":null,"registeredAt":"2022-01-18T16:13:34.445779"}}
+2022-01-18 11:13:34,555 Creating transaction {"type": "TRANSFER_OUT", "method": "ATM", "amount": 9174, "merchantName": "None", "description": "Nice government first policy daughter need kind miss artist truth trouble behavior.", "accountNumber": "0012020371"}
+2022-01-18 11:13:34,556 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,619 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,620 Success, created transaction.
+2022-01-18 11:13:34,621 {"id":4,"type":"TRANSFER_OUT","method":"ATM","status":"DENIED","amount":9174,"description":"Nice government first policy daughter need kind miss artist truth trouble behavior."}
+2022-01-18 11:13:34,621 Creating transaction {"type": "PAYMENT", "method": "APP", "amount": 7775, "merchantName": "transition clicks-and-mortar e-business", "merchantCode": "75351", "description": "True develop sound central myself before year themselves.", "accountNumber": "0011014016"}
+2022-01-18 11:13:34,622 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,685 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,686 Success, created transaction.
+2022-01-18 11:13:34,686 {"id":5,"type":"PAYMENT","method":"APP","status":"DENIED","amount":7775,"description":"True develop sound central myself before year themselves.","merchantResponse":{"code":"75351","name":"transition clicks-and-mortar e-business","description":null,"registeredAt":"2022-01-18T16:13:34.643446"}}
+2022-01-18 11:13:34,687 Creating transaction {"type": "TRANSFER_IN", "method": "ACH", "amount": 3563, "merchantName": "None", "description": "Necessary religious natural sport music white owner onto knowledge.", "accountNumber": "0011010478"}
+2022-01-18 11:13:34,688 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,747 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,747 Success, created transaction.
+2022-01-18 11:13:34,747 {"id":6,"type":"TRANSFER_IN","method":"ACH","status":"APPROVED","amount":3563,"description":"Necessary religious natural sport music white owner onto knowledge."}
+2022-01-18 11:13:34,748 Creating transaction {"type": "TRANSFER_OUT", "method": "ATM", "amount": 6792, "merchantName": "None", "description": "Offer face country cost party prevent live bed serious theory.", "accountNumber": "0011018144"}
+2022-01-18 11:13:34,749 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,809 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,810 Success, created transaction.
+2022-01-18 11:13:34,811 {"id":7,"type":"TRANSFER_OUT","method":"ATM","status":"DENIED","amount":6792,"description":"Offer face country cost party prevent live bed serious theory."}
+2022-01-18 11:13:34,811 Creating transaction {"type": "PURCHASE", "method": "ACH", "amount": 5221, "merchantName": "productize impactful deliverables", "merchantCode": "48339", "description": "Often late produce you true soldier bank party main picture suddenly.", "accountNumber": "0012020371"}
+2022-01-18 11:13:34,812 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,899 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,900 Success, created transaction.
+2022-01-18 11:13:34,900 {"id":8,"type":"PURCHASE","method":"ACH","status":"DENIED","amount":5221,"description":"Often late produce you true soldier bank party main picture suddenly.","merchantResponse":{"code":"48339","name":"productize impactful deliverables","description":null,"registeredAt":"2022-01-18T16:13:34.843591"}}
+2022-01-18 11:13:34,901 Creating transaction {"type": "WITHDRAWAL", "method": "ACH", "amount": 5981, "merchantName": "None", "description": "Bring determine some forward staff beyond chair recently and.", "accountNumber": "0011018144"}
+2022-01-18 11:13:34,902 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:34,973 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:34,975 Success, created transaction.
+2022-01-18 11:13:34,975 {"id":9,"type":"WITHDRAWAL","method":"ACH","status":"DENIED","amount":5981,"description":"Bring determine some forward staff beyond chair recently and."}
+2022-01-18 11:13:34,976 Creating transaction {"type": "TRANSFER_OUT", "method": "APP", "amount": 1731, "merchantName": "None", "description": "Own available buy country store build before street break painting create wife.", "accountNumber": "0012021100"}
+2022-01-18 11:13:34,977 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,056 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,057 Success, created transaction.
+2022-01-18 11:13:35,057 {"id":10,"type":"TRANSFER_OUT","method":"APP","status":"DENIED","amount":1731,"description":"Own available buy country store build before street break painting create wife."}
+2022-01-18 11:13:35,058 Creating transaction {"type": "TRANSFER_OUT", "method": "ACH", "amount": 920, "merchantName": "None", "description": "Decision song view age international big employee determine positive go Congress mean.", "accountNumber": "0012020371"}
+2022-01-18 11:13:35,059 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,131 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,132 Success, created transaction.
+2022-01-18 11:13:35,133 {"id":11,"type":"TRANSFER_OUT","method":"ACH","status":"DENIED","amount":920,"description":"Decision song view age international big employee determine positive go Congress mean."}
+2022-01-18 11:13:35,133 Creating transaction {"type": "WITHDRAWAL", "method": "APP", "amount": 5400, "merchantName": "None", "description": "Record hospital employee toward like total now.", "accountNumber": "0012021100"}
+2022-01-18 11:13:35,135 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,200 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,202 Success, created transaction.
+2022-01-18 11:13:35,202 {"id":12,"type":"WITHDRAWAL","method":"APP","status":"DENIED","amount":5400,"description":"Record hospital employee toward like total now."}
+2022-01-18 11:13:35,203 Creating transaction {"type": "DEPOSIT", "method": "ACH", "amount": 8153, "merchantName": "generate granular communities", "merchantCode": "58419", "description": "Program actually race tonight themselves true power home price check real.", "accountNumber": "0012021100"}
+2022-01-18 11:13:35,205 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,313 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,315 Success, created transaction.
+2022-01-18 11:13:35,315 {"id":13,"type":"DEPOSIT","method":"ACH","status":"APPROVED","amount":8153,"description":"Program actually race tonight themselves true power home price check real.","merchantResponse":{"code":"58419","name":"generate granular communities","description":null,"registeredAt":"2022-01-18T16:13:35.234227"}}
+2022-01-18 11:13:35,316 Creating transaction {"type": "TRANSFER_IN", "method": "APP", "amount": 8801, "merchantName": "None", "description": "From animal exactly drive well good explain.", "accountNumber": "0011014016"}
+2022-01-18 11:13:35,317 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,409 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,410 Success, created transaction.
+2022-01-18 11:13:35,411 {"id":14,"type":"TRANSFER_IN","method":"APP","status":"APPROVED","amount":8801,"description":"From animal exactly drive well good explain."}
+2022-01-18 11:13:35,411 Creating transaction {"type": "TRANSFER_IN", "method": "APP", "amount": 2653, "merchantName": "None", "description": "Car financial security stock ball organization recognize civil development large report purpose themselves.", "accountNumber": "0011014016"}
+2022-01-18 11:13:35,413 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,485 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,486 Success, created transaction.
+2022-01-18 11:13:35,487 {"id":15,"type":"TRANSFER_IN","method":"APP","status":"APPROVED","amount":2653,"description":"Car financial security stock ball organization recognize civil development large report purpose themselves."}
+2022-01-18 11:13:35,487 Creating transaction {"type": "PURCHASE", "method": "ATM", "amount": 8534, "merchantName": "cultivate next-generation web services", "merchantCode": "02714", "description": "Land those traditional page a although for study.", "accountNumber": "0012021100"}
+2022-01-18 11:13:35,489 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,574 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,575 Success, created transaction.
+2022-01-18 11:13:35,576 {"id":16,"type":"PURCHASE","method":"ATM","status":"DENIED","amount":8534,"description":"Land those traditional page a although for study.","merchantResponse":{"code":"02714","name":"cultivate next-generation web services","description":null,"registeredAt":"2022-01-18T16:13:35.517789"}}
+2022-01-18 11:13:35,576 Creating transaction {"type": "PURCHASE", "method": "ATM", "amount": 6263, "merchantName": "aggregate strategic channels", "merchantCode": "06650", "description": "Add senior woman put partner couple part cup.", "accountNumber": "0011011523"}
+2022-01-18 11:13:35,577 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,657 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,658 Success, created transaction.
+2022-01-18 11:13:35,659 {"id":17,"type":"PURCHASE","method":"ATM","status":"DENIED","amount":6263,"description":"Add senior woman put partner couple part cup.","merchantResponse":{"code":"06650","name":"aggregate strategic channels","description":null,"registeredAt":"2022-01-18T16:13:35.603149"}}
+2022-01-18 11:13:35,659 Creating transaction {"type": "REFUND", "method": "ATM", "amount": 5106, "merchantName": "scale viral platforms", "merchantCode": "76104", "description": "Son break either president stage population boy child surface amount day.", "accountNumber": "0011011810"}
+2022-01-18 11:13:35,660 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,749 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,751 Success, created transaction.
+2022-01-18 11:13:35,751 {"id":18,"type":"REFUND","method":"ATM","status":"APPROVED","amount":5106,"description":"Son break either president stage population boy child surface amount day.","merchantResponse":{"code":"76104","name":"scale viral platforms","description":null,"registeredAt":"2022-01-18T16:13:35.69131"}}
+2022-01-18 11:13:35,752 Creating transaction {"type": "REFUND", "method": "APP", "amount": 5060, "merchantName": "harness bricks-and-clicks networks", "merchantCode": "09776", "description": "The condition heart fact catch even front happen behavior single.", "accountNumber": "0011018144"}
+2022-01-18 11:13:35,753 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,852 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,853 Success, created transaction.
+2022-01-18 11:13:35,853 {"id":19,"type":"REFUND","method":"APP","status":"APPROVED","amount":5060,"description":"The condition heart fact catch even front happen behavior single.","merchantResponse":{"code":"09776","name":"harness bricks-and-clicks networks","description":null,"registeredAt":"2022-01-18T16:13:35.793445"}}
+2022-01-18 11:13:35,854 Creating transaction {"type": "PURCHASE", "method": "ACH", "amount": 9917, "merchantName": "empower granular eyeballs", "merchantCode": "94568", "description": "Fall long dream answer conference mission audience.", "accountNumber": "0011010478"}
+2022-01-18 11:13:35,855 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,930 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,931 Success, created transaction.
+2022-01-18 11:13:35,931 {"id":20,"type":"PURCHASE","method":"ACH","status":"DENIED","amount":9917,"description":"Fall long dream answer conference mission audience.","merchantResponse":{"code":"94568","name":"empower granular eyeballs","description":null,"registeredAt":"2022-01-18T16:13:35.878604"}}
+2022-01-18 11:13:35,932 Creating transaction {"type": "TRANSFER_IN", "method": "ATM", "amount": 6850, "merchantName": "None", "description": "Increase between training listen subject wish gas look record.", "accountNumber": "0011010478"}
+2022-01-18 11:13:35,933 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:35,997 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:35,998 Success, created transaction.
+2022-01-18 11:13:35,999 {"id":21,"type":"TRANSFER_IN","method":"ATM","status":"APPROVED","amount":6850,"description":"Increase between training listen subject wish gas look record."}
+2022-01-18 11:13:35,999 Creating transaction {"type": "TRANSFER_IN", "method": "ACH", "amount": 1989, "merchantName": "None", "description": "Friend reach choose coach north south yard beautiful space.", "accountNumber": "0011010478"}
+2022-01-18 11:13:36,001 Starting new HTTP connection (1): 172.27.80.84:8073
+2022-01-18 11:13:36,071 http://172.27.80.84:8073 "POST /transactions HTTP/1.1" 200 None
+2022-01-18 11:13:36,072 Success, created transaction.
+2022-01-18 11:13:36,073 {"id":22,"type":"TRANSFER_IN","method":"ACH","status":"APPROVED","amount":1989,"description":"Friend reach choose coach north south yard beautiful space."}
