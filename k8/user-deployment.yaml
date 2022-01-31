@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aline-deployment
+  labels:
+    app: aline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline
+  template:
+    metadata:
+      labels:
+        app: aline
+    spec:
+      containers:
+      - name: user-app
+        image: jsherer/aline-user-microservice:1.0
+        ports:
+        - containerPort: 8070
+        resources:
+          limits:
+            memory: "64Mi"
+            cpu: "500m"
+      nodeName: worker-node

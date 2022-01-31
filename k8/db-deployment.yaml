@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db-deployment
+  labels:
+    app: aline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline
+  template:
+    metadata:
+      labels:
+        app: aline
+    spec:
+      containers:
+      - name: db
+        image: jsherer/aline-db:1.0
+        ports:
+        - containerPort: 3306
+        env:
+        - name: DB_USERNAME
+          value: root
+        - name: DB_PASSWORD
+          value: password
+        - name: DB_HOST
+          value: host.docker.internal
+        - name: DB_PORT
+          value: 3307
+        - name: DB_NAME
+          value: alinedb
+        resources:
+          limits:
+            memory: "64Mi"
+            cpu: "500m"
+      nodeName: worker-node
