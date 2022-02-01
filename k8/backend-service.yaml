@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: aline-backend-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: aline
+  ports:
+  - name: user
+    port: 8070
+    targetPort: 8070
+    nodePort: 30070
+  - name: underwriter
+    port: 8071
+    targetPort: 8071
+    nodePort: 30071
+  - name: transaction
+    port: 8073
+    targetPort: 8073
+    nodePort: 30073
+  - name: bank
+    port: 8083
+    targetPort: 8083
+    nodePort: 30083

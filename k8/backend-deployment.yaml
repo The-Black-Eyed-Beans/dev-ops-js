@@ -1,0 +1,251 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-deployment
+  labels:
+    app: aline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline
+  template:
+    metadata:
+      labels:
+        app: aline
+    spec:
+      containers:
+      - name: user-app
+        image: jsherer/aline-user-microservice:1.0
+        env:
+        - name: DB_USERNAME
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: username
+        - name: DB_PASSWORD
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: password
+        - name: DB_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_HOST
+        - name: DB_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_PORT
+        - name: DB_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_NAME
+        - name: ENCRYPT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: ENCRYPT_SECRET_KEY
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: JWT_SECRET_KEY
+        ports:
+        - name: user
+          containerPort: 8070
+        resources:
+          limits:
+            memory: "1024Mi"
+            cpu: "1000m"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: underwriter-deployment
+  labels:
+    app: aline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline
+  template:
+    metadata:
+      labels:
+        app: aline
+    spec:
+      containers:
+      - name: underwriter-app
+        image: jsherer/aline-underwriter-microservice:1.0
+        env:
+        - name: DB_USERNAME
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: username
+        - name: DB_PASSWORD
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: password
+        - name: DB_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_HOST
+        - name: DB_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_PORT
+        - name: DB_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_NAME
+        - name: ENCRYPT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: ENCRYPT_SECRET_KEY
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: JWT_SECRET_KEY
+        ports:
+        - name: underwriter
+          containerPort: 8071
+        resources:
+          limits:
+            memory: "1024Mi"
+            cpu: "1000m"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bank-deployment
+  labels:
+    app: aline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline
+  template:
+    metadata:
+      labels:
+        app: aline
+    spec:
+      containers:
+      - name: bank-app
+        image: jsherer/aline-bank-microservice:1.0
+        env:
+        - name: DB_USERNAME
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: username
+        - name: DB_PASSWORD
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: password
+        - name: DB_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_HOST
+        - name: DB_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_PORT
+        - name: DB_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_NAME
+        - name: ENCRYPT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: ENCRYPT_SECRET_KEY
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: JWT_SECRET_KEY
+        ports:
+        - name: bank
+          containerPort: 8083
+        resources:
+          limits:
+            memory: "1024Mi"
+            cpu: "1000m"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transaction-deployment
+  labels:
+    app: aline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline
+  template:
+    metadata:
+      labels:
+        app: aline
+    spec:
+      containers:
+      - name: transaction-app
+        image: jsherer/aline-transaction-microservice:1.0
+        env:
+        - name: DB_USERNAME
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: username
+        - name: DB_PASSWORD
+          valueFrom:
+           secretKeyRef:
+             name: secret
+             key: password
+        - name: DB_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_HOST
+        - name: DB_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_PORT
+        - name: DB_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: backend-configmap
+              key: DB_NAME
+        - name: ENCRYPT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: ENCRYPT_SECRET_KEY
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: JWT_SECRET_KEY
+        ports:
+        - name: transaction
+          containerPort: 8073
+        resources:
+          limits:
+            memory: "1024Mi"
+            cpu: "1000m"
