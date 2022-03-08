@@ -5,6 +5,7 @@ import json as json_format
 import random
 from dotenv import load_dotenv
 from faker import Faker
+import os
 
 def log_error(s):
     logging.error(s)
@@ -56,14 +57,14 @@ if __name__ == '__main__':
     load_dotenv()
 
     # Validate command line arguments
-    if len(sys.argv) != 3:
-        print("Error, invalid arguments. Expecting \"hostname [# of branches]\"")
-        logging.info("Error, invalid arguments. Expecting \"hostname [# of branches]\"")
+    if len(sys.argv) != 2:
+        print("Error, invalid arguments. Expecting \"[# of branches]\"")
+        logging.info("Error, invalid arguments. Expecting \"[# of branches]\"")
 
     # Parse number of inserts from command line args
     iterations = 0
     try:
-        iterations = int(sys.argv[2])
+        iterations = int(sys.argv[1])
         assert iterations > 0
     except IndexError:
         pass
@@ -71,7 +72,7 @@ if __name__ == '__main__':
         log_error("Error, second argument must be a positive integer.")
 
     # Parse site path from command line args
-    site_path = sys.argv[1]
+    site_path = os.environ.get("URL")
 
     token = ''
     with open('auth_token.txt', 'r') as auth_token_file:

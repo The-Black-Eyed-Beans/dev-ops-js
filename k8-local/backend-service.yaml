@@ -7,19 +7,19 @@ spec:
   selector:
     app: aline
   ports:
-  - name: user
+  - name: user-port
     port: 8070
-    targetPort: 8070
+    targetPort: user
     nodePort: 30070
-  - name: underwriter
+  - name: underwriter-port
     port: 8071
-    targetPort: 8071
+    targetPort: underwriter
     nodePort: 30071
-  - name: transaction
+  - name: transaction-port
     port: 8073
-    targetPort: 8073
+    targetPort: transaction
     nodePort: 30073
-  - name: bank
+  - name: bank-port
     port: 8083
-    targetPort: 8083
+    targetPort: bank
     nodePort: 30083

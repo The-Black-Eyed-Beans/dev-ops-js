@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db-deployment
+  labels:
+    app: aline-db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aline-db
+  template:
+    metadata:
+      labels:
+        app: aline-db
+    spec:
+      containers:
+      - name: db
+        image: jsherer/aline-db:1.1
+        ports:
+        - containerPort: 3306
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: Password1!
+        resources:
+          limits:
+            memory: "2048Mi"
+            cpu: "1500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: aline-db
+  ports:
+    - protocol: TCP
+      port: 3307
+      targetPort: 3306
+      

@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   user:
-    image: 086620157175.dkr.ecr.us-east-1.amazonaws.com/user-microservice
+    image: 086620157175.dkr.ecr.us-west-1.amazonaws.com/user-microservice-js
     ports:
       - "8070:8070"
     env_file:
@@ -9,7 +9,7 @@ services:
     environment:
       - APP_PORT=8070
   bank:
-    image: 086620157175.dkr.ecr.us-east-1.amazonaws.com/bank-microservice
+    image: 086620157175.dkr.ecr.us-west-1.amazonaws.com/bank-microservice-js
     ports:
       - "8083:8083"
     env_file:
