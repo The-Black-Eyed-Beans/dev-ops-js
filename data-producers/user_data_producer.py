@@ -4,6 +4,8 @@ import sys
 import json as json_format
 from faker import Faker
 import random
+import os
+from dotenv import load_dotenv
 
 
 def log_error(s):
@@ -19,7 +21,7 @@ def register_user(path, json, auth_token):
         "Authorization": auth_token
     }
     try:
-        response = requests.post(path + ":8070/users/registration", json=json, headers=headers)
+        response = requests.post(path + ":" + os.environ.get("USER_PORT") + "/users/registration", json=json, headers=headers)
     except (requests.exceptions.ConnectionError, requests.exceptions.ConnectTimeout):
         log_error("Error, failed to establish connection with server. Terminating process.")
     if response.status_code == 500:
@@ -67,13 +69,15 @@ def generate_user_registration_json(applicant_json, fake, membershipId):
 if __name__ == '__main__':
     logging.basicConfig(filename='.log', filemode='a', level=logging.DEBUG, format='%(asctime)s %(message)s')
 
+    load_dotenv()
+
     # Validate command line arguments
-    if len(sys.argv) != 2:
-        print("Error, invalid arguments. Expecting \"hostname\"")
-        logging.info("Error, invalid arguments. Expecting \"hostname\"")
+    if len(sys.argv) != 1:
+        print("Error, invalid arguments. Expecting none")
+        logging.info("Error, invalid arguments. Expecting none")
 
     # Parse site path from command line args
-    site_path = sys.argv[1]
+    site_path = os.environ.get("URL")
 
     token = ''
     with open('auth_token.txt', 'r') as auth_token_file:

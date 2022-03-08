@@ -4,6 +4,8 @@ import sys
 import json as json_format
 from faker import Faker
 import random
+import os
+from dotenv import load_dotenv
 
 def log_error(s):
     logging.error(s)
@@ -39,7 +41,6 @@ def create_transaction(path, json, auth_token):
     return ""
 
 
-
 def generate_transaction_json(i, fake, accounts):
     # Get an account number
     index = random.randint(0, len(accounts)-2)
@@ -49,7 +50,7 @@ def generate_transaction_json(i, fake, accounts):
         return {
             "type": fake.random_choices(elements=('PURCHASE', 'DEPOSIT', 'REFUND', 'PAYMENT', 'VOID'), length=1)[0],
             "method": fake.random_choices(elements=('ACH', 'ATM', 'APP'), length=1)[0],
-            "amount": random.randint(0,10000),
+            "amount": random.randint(0, 10000),
             "merchantName": fake.bs(),
             "merchantCode": fake.numerify("#####"),
             "description": fake.sentence(nb_words=10)[:254],
@@ -69,15 +70,17 @@ def generate_transaction_json(i, fake, accounts):
 if __name__ == '__main__':
     logging.basicConfig(filename='.log', filemode='a', level=logging.DEBUG, format='%(asctime)s %(message)s')
 
+    load_dotenv()
+
     # Validate command line arguments
-    if len(sys.argv) != 3:
-        print("Error, invalid arguments. Expecting \"hostname [# of transactions]\"")
-        logging.info("Error, invalid arguments. Expecting \"hostname [# of transactions]\"")
+    if len(sys.argv) != 2:
+        print("Error, invalid arguments. Expecting \"[# of transactions]\"")
+        logging.info("Error, invalid arguments. Expecting \"[# of transactions]\"")
 
     # Parse number of inserts from command line args
     iterations = 0
     try:
-        iterations = int(sys.argv[2])
+        iterations = int(sys.argv[1])
         assert iterations > 0
     except IndexError:
         pass
@@ -85,7 +88,7 @@ if __name__ == '__main__':
         log_error("Error, second argument must be a positive integer.")
 
     # Parse site path from command line args
-    site_path = sys.argv[1]
+    site_path = os.environ.get("URL")
 
     token = ''
     with open('auth_token.txt', 'r') as auth_token_file:

@@ -4,6 +4,8 @@ import sys
 import json as json_format
 from faker import Faker
 import random
+import os
+from dotenv import load_dotenv
 
 
 def log_error(s):
@@ -25,11 +27,11 @@ def create_application(path, id, auth_token, fake):
     }
     logging.info("Registering applicant " + json_format.dumps(body))
     try:
-        response = requests.post(path + ":8071/applications", json=body, headers=headers)
+        response = requests.post(path + ":" + os.environ.get("UNDERWRITER_PORT") + "/applications", json=body, headers=headers)
     except (requests.exceptions.ConnectionError, requests.exceptions.ConnectTimeout):
         log_error("Error, failed to establish connection with server. Terminating process.")
 
-    if response.status_code == 201:
+    if response.status_code == 201 and response.json()["accountsCreated"] == True:
         logging.info("Success, registered applicant.")
         logging.info(response.text)
         return "{},{}".format(response.json()["createdAccounts"][0]["accountNumber"],
@@ -54,7 +56,7 @@ def create_applicant(path, json, auth_token):
         "Authorization": auth_token
     }
     try:
-        response = requests.post(path + ":8071/applicants", json=json, headers=headers)
+        response = requests.post(path + ":" + os.environ.get("UNDERWRITER_PORT") + "/applicants", json=json, headers=headers)
     except (requests.exceptions.ConnectionError, requests.exceptions.ConnectTimeout):
         log_error("Error, failed to establish connection with server. Terminating process.")
     if response.status_code == 201:
@@ -108,23 +110,25 @@ def generate_applicant_json(fake):
 if __name__ == '__main__':
     logging.basicConfig(filename='.log', filemode='a', level=logging.DEBUG, format='%(asctime)s %(message)s')
 
+    load_dotenv()
+
     # Validate command line arguments
-    if len(sys.argv) != 3:
-        print("Error, invalid arguments. Expecting \"hostname [# of applicants]\"")
-        logging.info("Error, invalid arguments. Expecting \"hostname [# of applicants]\"")
+    if len(sys.argv) != 2:
+        print("Error, invalid arguments. Expecting \"[# of applicants]\"")
+        logging.info("Error, invalid arguments. Expecting \"[# of applicants]\"")
 
     # Parse number of inserts from command line args
     iterations = 0
     try:
-        iterations = int(sys.argv[2])
+        iterations = int(sys.argv[1])
         assert iterations > 0
     except IndexError:
         pass
     except (ValueError, AssertionError):
         log_error("Error, second argument must be a positive integer.")
 
-    # Parse site path from command line args
-    site_path = sys.argv[1]
+    # Parse site path from env
+    site_path = os.environ.get("URL")
 
     token = ''
     with open('auth_token.txt', 'r') as auth_token_file:
@@ -144,7 +148,8 @@ if __name__ == '__main__':
     with open('applicants.csv', 'r') as applicants_file, open('accounts.csv', 'w') as accounts_file:
         applicants = applicants_file.read().split("\n")[:-1]
         for i in range(0, len(applicants)):
-            account_member_pair = create_application(site_path, applicants[i][0], token, fake)
+            print(applicants[i])
+            account_member_pair = create_application(site_path, applicants[i][:applicants[i].index(',')], token, fake)
             if account_member_pair != "":
                 accounts_file.write(account_member_pair + "\n")
 

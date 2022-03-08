@@ -96,11 +96,6 @@ if __name__ == '__main__':
     # Load environment
     load_dotenv()
 
-    # Validate command line arguments
-    if len(sys.argv) != 2:
-        print("Error, invalid arguments. Expecting hostname")
-        logging.info("Error, invalid arguments. Expecting hostname")
-
     validate_variables()
     initialize_account_sequence()
     initialize_none_merchant()
@@ -121,7 +116,7 @@ if __name__ == '__main__':
         "phone": "410-404-1120"
     }
     # Parse site path from command line args
-    site_path = sys.argv[1]
+    site_path = os.environ.get("URL")
     with open('auth_token.txt', 'w') as auth_token_file:
         auth_token_file.write(create_user_and_login(site_path, user_json))
     exit(0)
