@@ -2,10 +2,10 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: js-cluster-2
+  name: EKSCluster-js
   region: us-west-1
 
 nodeGroups:
-  - name: ng-1
+  - name: ip-10-0-0-157.us-west-1.compute.internal
     instanceType: t2.medium
     desiredCapacity: 2

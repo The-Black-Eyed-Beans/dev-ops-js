@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: user-deployment
-  namespace: eks-js
   labels:
     app: aline
 spec:
@@ -64,7 +63,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: underwriter-deployment
-  namespace: eks-js
   labels:
     app: aline
 spec:
@@ -126,7 +124,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: bank-deployment
-  namespace: eks-js
   labels:
     app: aline
 spec:
@@ -188,7 +185,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: transaction-deployment
-  namespace: eks-js
   labels:
     app: aline
 spec:
@@ -250,7 +246,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gateway-deployment
-  namespace: eks-js
   labels:
     app: aline
 spec:
@@ -309,3 +304,5 @@ spec:
         ports:
         - name: gateway
           containerPort: 8080
+      nodeSelector:
+        nodeGroup: "public_node_group"

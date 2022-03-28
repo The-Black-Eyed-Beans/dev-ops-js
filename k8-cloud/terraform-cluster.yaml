@@ -1,0 +1,31 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: EKSCluster-js
+  region: us-west-1
+
+vpc:
+  id: "vpc-006850a9bd9eeb2c8"
+  securityGroup: "sg-025d25ade4683529e"
+  subnets:
+    private:
+      private1:
+        id: "subnet-042a54a04a1dddc5e"
+      private2:
+        id: "subnet-09583a5e149811934"
+    public:
+      public1:
+        id: "subnet-06bc1ebfeb0d20962"
+      public2:
+        id: "subnet-08d702736331fe4e3"
+
+nodeGroups:
+  - name: private-node-group
+    instanceType: t2.medium
+    desiredCapacity: 1
+    privateNetworking: true
+  - name: public-node-group
+    instanceType: t2.medium
+    desiredCapacity: 1
+    privateNetworking: true

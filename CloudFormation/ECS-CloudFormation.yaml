@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Deployment of ECS for microservices
+Resources:
+  ecs-cluster-js:
+    Type: AWS::ECS::Cluster
+    Properties: 
+      ClusterName: ecs-cluster-js

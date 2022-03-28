@@ -17,7 +17,7 @@ services:
     environment:
       - APP_PORT=8083
   underwriter:
-    image: 086620157175.dkr.ecr.us-east-1.amazonaws.com/underwriter-microservice
+    image: 086620157175.dkr.ecr.us-west-1.amazonaws.com/underwriter-microservice-js
     ports:
       - "8071:8071"
     env_file:
@@ -25,7 +25,7 @@ services:
     environment:
       - APP_PORT=8071
   transaction:
-    image: 086620157175.dkr.ecr.us-east-1.amazonaws.com/transaction-microservice
+    image: 086620157175.dkr.ecr.us-west-1.amazonaws.com/transaction-microservice-js
     ports:
       - "8073:8073"
     env_file:
