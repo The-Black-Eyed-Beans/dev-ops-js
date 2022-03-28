@@ -1,0 +1,17 @@
+pipeline{
+    agent any
+
+    environment{
+        AWS_ACCOUNT_ID = credentials('aws.id')
+        AWS_ACCESS_KEY = credentials('aws.access.key')
+        AWS_SECRET_KEY = credentials('aws.secret.key')
+    }
+
+    stages {
+        stage('Deploy stack'){
+            steps{
+                sh "aws cloudformation create-stack --stack-name ecs-cluster --template /ECS-CloudFormation.yaml"
+            }
+        }
+    }
+}
